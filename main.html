@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Session Manager</title>
+
+    <link rel="stylesheet" href="/css/master.css" media="screen">
+  </head>
+  <body>
+
+    <header class="sortselector">
+      <select class="sortselector-button">
+        <option value="manually" selected>Sort Manually</option>
+        <option value="title">Sort by Title</option>
+        <option value="address">Sort by Address</option>
+        <option value="date">Sort by Date</option>
+      </select>
+    </header>
+
+    <section id="sessions"></section>
+
+    <script type="text/javascript" src="bower_components/mold/mold.js"></script>
+    <script type="text/javascript" src="utils.js"></script>
+    <script type="text/javascript" src="store.js"></script>
+    <script type="text/javascript" src="manager.js"></script>
+  </body>
+</html>
